@@ -5,7 +5,7 @@ Since the intermediate data created when computing ideology scores could also be
 
 
 The package can be separated into four parts
-1. base.py: Drives the main computation for fan page political ideology score from page_page_matrix using Principle Component Analysis. After having page ideology score, we can compute user's ideology score based on their likes on fan pages.
+1. base.py: Drives the main computation for fan page political ideology score from page_page_matrix using Principal Component Analysis. After having page ideology score, we can compute user's ideology score based on their likes on fan pages.
 
 2. read.py: Reads the data and conduct the data preprocessing needed to the next step in our score calculation.
 
